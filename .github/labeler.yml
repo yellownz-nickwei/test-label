@@ -1,6 +1,7 @@
 extensions:
-- 'extensions/**/*'
-
+- any: ['.*', '.*/*', '.*/**/*', 'package.json', 'yarn.lock']
+  all: ['extensions/**/*']
+  
 main:
 - '*'
 - '*/*'
