@@ -4,7 +4,5 @@ extensions:
   
 main:
 - '*'
-- '*/*'
 - '*/**/*'
-- '!extensions/*'
 - '!extensions/**/*'
