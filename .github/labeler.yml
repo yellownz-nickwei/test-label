@@ -1,9 +1,2 @@
 extensions:
 - 'extensions/**/*'
-
-main:
-- '*'
-- '*/*'
-- '*/**/*'
-- '!extensions/*'
-- '!extensions/**/*'
